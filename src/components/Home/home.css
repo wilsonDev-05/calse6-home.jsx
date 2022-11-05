@@ -1,0 +1,8 @@
+.home {
+}
+.container {
+  max-width: 90%;
+  border: solid 1px red;
+  margin: auto;
+  height: 100vh;
+}
