@@ -1,8 +1,16 @@
 .home {
+  padding: 30px 10px 30px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
 }
-.container {
-  max-width: 90%;
-  border: solid 1px red;
-  margin: auto;
-  height: 100vh;
+.card {
+  border: solid 1px gold;
+  padding: 10px;
+  width: 190px;
+  height: 200px;
+}
+.card__flex {
+  display: flex;
+  flex-direction: column;
 }

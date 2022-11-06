@@ -9,3 +9,24 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 90%;
+  border: solid 1px red;
+  margin: auto;
+}
+.header {
+  border: solid 1px green;
+}
+.home {
+  display: grid;
+  /* padding: 10px 0 10px 0; */
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  border: solid 1px black;
+  text-decoration: none;
+}

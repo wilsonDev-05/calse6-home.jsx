@@ -12,8 +12,10 @@ import Home from './components/Home/Home';
 
 export default function App() {
   return (
-    <div>
-      <h1>Clase 06 - promises, asincronia y map</h1>
+    <div className="container">
+      <header className="header">
+        <h1>Clase 06 - promises, asincronia y map</h1>
+      </header>
       <Home />
     </div>
   );
