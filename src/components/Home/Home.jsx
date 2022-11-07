@@ -29,7 +29,7 @@ export default function Home() {
       .then((promise) => promise.json())
       .then((productos) => {
         const cardProd = productos.map((prod) => (
-          <div className="card">
+          <div className="card" key={prod.id}>
             <img src={`./img${prod.img}`} />
             <div className="card__flex">
               <h5>{`${prod.nombre}`}</h5>
